@@ -23,6 +23,8 @@
 		9F6390FC1C1C075F00D10E0B /* CanditatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6390FB1C1C075F00D10E0B /* CanditatesTableViewController.swift */; };
 		9F6390FE1C1C5CC000D10E0B /* CandidateDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6390FD1C1C5CC000D10E0B /* CandidateDetailViewController.swift */; };
 		9F6391011C1C72AD00D10E0B /* StateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6391001C1C72AD00D10E0B /* StateTableViewCell.swift */; };
+		9FA5A8DD1C1C93E10079C055 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA5A8DC1C1C93E10079C055 /* LoginViewController.swift */; };
+		9FA5A8DF1C1C97BA0079C055 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA5A8DE1C1C97BA0079C055 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		9F6390FB1C1C075F00D10E0B /* CanditatesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanditatesTableViewController.swift; sourceTree = "<group>"; };
 		9F6390FD1C1C5CC000D10E0B /* CandidateDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandidateDetailViewController.swift; sourceTree = "<group>"; };
 		9F6391001C1C72AD00D10E0B /* StateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StateTableViewCell.swift; path = Vedor/CustomViews/StateTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		9FA5A8DC1C1C93E10079C055 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9FA5A8DE1C1C97BA0079C055 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 				9F6390F01C1BDE2F00D10E0B /* RolesTableViewController.swift */,
 				9F6390FB1C1C075F00D10E0B /* CanditatesTableViewController.swift */,
 				9F6390FD1C1C5CC000D10E0B /* CandidateDetailViewController.swift */,
+				9FA5A8DC1C1C93E10079C055 /* LoginViewController.swift */,
+				9FA5A8DE1C1C97BA0079C055 /* RegisterViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -282,8 +288,10 @@
 				9F6390F51C1BF3F800D10E0B /* ParseRequest.swift in Sources */,
 				9F24DB271C1C7B2A0074BB17 /* CandidateTableViewCell.swift in Sources */,
 				9F6390ED1C1BC14A00D10E0B /* StatesTableViewController.swift in Sources */,
+				9FA5A8DF1C1C97BA0079C055 /* RegisterViewController.swift in Sources */,
 				9F6390DB1C1B942600D10E0B /* AppDelegate.swift in Sources */,
 				9F6390EF1C1BCB2500D10E0B /* State.swift in Sources */,
+				9FA5A8DD1C1C93E10079C055 /* LoginViewController.swift in Sources */,
 				9F6390FA1C1BFE4900D10E0B /* Politician.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -18,6 +18,9 @@ class CanditatesTableViewController: UITableViewController {
         super.viewDidLoad()
 
         self.title = "Candidatos"
+        
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        print(appDelegate.user?.email)
     }
 
     override func didReceiveMemoryWarning() {
