@@ -12,6 +12,7 @@ import Parse
 class CanditatesTableViewController: UITableViewController {
     
     var candidates: [PFObject]!
+    let baseImageName = "ic_pt_"
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,10 +32,18 @@ class CanditatesTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCellWithIdentifier("CandidateCell")
+//        let cell = tableView.dequeueReusableCellWithIdentifier("CandidateCell")
+//        
+//        let candidate = Politician(parseObject: candidates[indexPath.row])
+//        cell?.textLabel?.text = candidate.candidateName
+        
+        let cell = tableView.dequeueReusableCellWithIdentifier("CandidateCell") as? CandidateTableViewCell
         
         let candidate = Politician(parseObject: candidates[indexPath.row])
-        cell?.textLabel?.text = candidate.candidateName
+        cell?.nameLabel.text = candidate.candidateUrnName
+        cell?.numberInitialsLabel.text = "\(candidate.candidatePartyNumber) - \(candidate.candidatePartyInitials)"
+        cell?.statusLabel.text = candidate.candidateTurnDescription
+        cell?.partyFlagImageView?.image = UIImage(named: "\(baseImageName)\(candidate.candidatePartyInitials.lowercaseString.stringByReplacingOccurrencesOfString(" ", withString: ""))")
         
         return cell!
     }

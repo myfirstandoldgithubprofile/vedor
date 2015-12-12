@@ -16,6 +16,8 @@ class ParseRequest: NSObject {
     init(classToRequest: String) {
         query = PFQuery(className:classToRequest)
         query.limit = 1000
+        // get only first turn eletions to avoid duplicate
+        query.whereKey(Politician.ParseField.PoliticianTurn.rawValue, equalTo:"1")
     }
     
     func addWhere(key: String, equalTo: String) -> ParseRequest {

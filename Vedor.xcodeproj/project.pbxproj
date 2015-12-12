@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		76E2DC9B7308785DB779B727 /* Pods_Vedor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E15206FE2A4C4154F426513 /* Pods_Vedor.framework */; };
+		9F24DB271C1C7B2A0074BB17 /* CandidateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F24DB261C1C7B2A0074BB17 /* CandidateTableViewCell.swift */; };
 		9F6390DB1C1B942600D10E0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6390DA1C1B942600D10E0B /* AppDelegate.swift */; };
 		9F6390DD1C1B942600D10E0B /* RegionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6390DC1C1B942600D10E0B /* RegionsTableViewController.swift */; };
 		9F6390E01C1B942600D10E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6390DE1C1B942600D10E0B /* Main.storyboard */; };
@@ -21,12 +22,14 @@
 		9F6390FA1C1BFE4900D10E0B /* Politician.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6390F91C1BFE4900D10E0B /* Politician.swift */; };
 		9F6390FC1C1C075F00D10E0B /* CanditatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6390FB1C1C075F00D10E0B /* CanditatesTableViewController.swift */; };
 		9F6390FE1C1C5CC000D10E0B /* CandidateDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6390FD1C1C5CC000D10E0B /* CandidateDetailViewController.swift */; };
+		9F6391011C1C72AD00D10E0B /* StateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6391001C1C72AD00D10E0B /* StateTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		384D1DC41CBF135F6C0CCB71 /* Pods-Vedor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vedor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vedor/Pods-Vedor.debug.xcconfig"; sourceTree = "<group>"; };
 		3E15206FE2A4C4154F426513 /* Pods_Vedor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vedor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BADC009B14674BC8BA4BB61 /* Pods-Vedor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vedor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vedor/Pods-Vedor.release.xcconfig"; sourceTree = "<group>"; };
+		9F24DB261C1C7B2A0074BB17 /* CandidateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandidateTableViewCell.swift; sourceTree = "<group>"; };
 		9F6390D71C1B942600D10E0B /* Vedor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vedor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6390DA1C1B942600D10E0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F6390DC1C1B942600D10E0B /* RegionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionsTableViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +45,7 @@
 		9F6390F91C1BFE4900D10E0B /* Politician.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Politician.swift; sourceTree = "<group>"; };
 		9F6390FB1C1C075F00D10E0B /* CanditatesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanditatesTableViewController.swift; sourceTree = "<group>"; };
 		9F6390FD1C1C5CC000D10E0B /* CandidateDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandidateDetailViewController.swift; sourceTree = "<group>"; };
+		9F6391001C1C72AD00D10E0B /* StateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StateTableViewCell.swift; path = Vedor/CustomViews/StateTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				9F6390F71C1BF50D00D10E0B /* Model */,
+				9F6390FF1C1C723300D10E0B /* CustomViews */,
 				9F6390F61C1BF4CF00D10E0B /* Services */,
 				9F6390F81C1BF65400D10E0B /* ViewControllers */,
 				9F6390DA1C1B942600D10E0B /* AppDelegate.swift */,
@@ -117,6 +122,16 @@
 				9F6390FD1C1C5CC000D10E0B /* CandidateDetailViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9F6390FF1C1C723300D10E0B /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				9F6391001C1C72AD00D10E0B /* StateTableViewCell.swift */,
+				9F24DB261C1C7B2A0074BB17 /* CandidateTableViewCell.swift */,
+			);
+			name = CustomViews;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		B8B8E74212CC0C958F76F4A4 /* Frameworks */ = {
@@ -258,12 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F6391011C1C72AD00D10E0B /* StateTableViewCell.swift in Sources */,
 				9F6390DD1C1B942600D10E0B /* RegionsTableViewController.swift in Sources */,
 				9F6390F31C1BF1EA00D10E0B /* ParseManager.swift in Sources */,
 				9F6390FC1C1C075F00D10E0B /* CanditatesTableViewController.swift in Sources */,
 				9F6390FE1C1C5CC000D10E0B /* CandidateDetailViewController.swift in Sources */,
 				9F6390F11C1BDE2F00D10E0B /* RolesTableViewController.swift in Sources */,
 				9F6390F51C1BF3F800D10E0B /* ParseRequest.swift in Sources */,
+				9F24DB271C1C7B2A0074BB17 /* CandidateTableViewCell.swift in Sources */,
 				9F6390ED1C1BC14A00D10E0B /* StatesTableViewController.swift in Sources */,
 				9F6390DB1C1B942600D10E0B /* AppDelegate.swift in Sources */,
 				9F6390EF1C1BCB2500D10E0B /* State.swift in Sources */,

@@ -19,4 +19,7 @@ class State: NSObject {
         self.code = code
     }
 
+    
+//    tableView.estimatedRowHeight = 80
+//    tableView.rowHeight = UITableViewAutomaticDimension
 }

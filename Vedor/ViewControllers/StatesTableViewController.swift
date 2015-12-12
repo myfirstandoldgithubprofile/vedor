@@ -10,6 +10,7 @@ import UIKit
 
 class StatesTableViewController: UITableViewController {
 
+    let baseImageName = "ic_uf_"
     var states: [State]!
     var region: String!
     
@@ -29,10 +30,11 @@ class StatesTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCellWithIdentifier("StateCell")
+        let cell = tableView.dequeueReusableCellWithIdentifier("StateCell") as? StateTableViewCell
         
         let state = states[indexPath.row]
-        cell?.textLabel?.text = state.name
+        cell?.stateLabel.text = state.name
+        cell?.imageView?.image = UIImage(named: "\(baseImageName)\(state.code.lowercaseString)")
         
         return cell!
     }
