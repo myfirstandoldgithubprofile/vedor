@@ -41,9 +41,19 @@ class CanditatesTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
-        self.performSegueWithIdentifier("CandidatesSegue", sender: indexPath)
+        self.performSegueWithIdentifier("CandidateSegue", sender: indexPath)
         
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let indexPath = sender as! NSIndexPath
+        
+        let candidate = candidates[indexPath.row]
+        
+        let toView = segue.destinationViewController as! CandidateDetailViewController
+        toView.candidate = Politician(parseObject: candidate)
     }
 
 }

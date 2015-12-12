@@ -20,6 +20,7 @@
 		9F6390F51C1BF3F800D10E0B /* ParseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6390F41C1BF3F800D10E0B /* ParseRequest.swift */; };
 		9F6390FA1C1BFE4900D10E0B /* Politician.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6390F91C1BFE4900D10E0B /* Politician.swift */; };
 		9F6390FC1C1C075F00D10E0B /* CanditatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6390FB1C1C075F00D10E0B /* CanditatesTableViewController.swift */; };
+		9F6390FE1C1C5CC000D10E0B /* CandidateDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6390FD1C1C5CC000D10E0B /* CandidateDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		9F6390F41C1BF3F800D10E0B /* ParseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseRequest.swift; sourceTree = "<group>"; };
 		9F6390F91C1BFE4900D10E0B /* Politician.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Politician.swift; sourceTree = "<group>"; };
 		9F6390FB1C1C075F00D10E0B /* CanditatesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanditatesTableViewController.swift; sourceTree = "<group>"; };
+		9F6390FD1C1C5CC000D10E0B /* CandidateDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandidateDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +110,11 @@
 		9F6390F81C1BF65400D10E0B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				9F6390FB1C1C075F00D10E0B /* CanditatesTableViewController.swift */,
 				9F6390DC1C1B942600D10E0B /* RegionsTableViewController.swift */,
-				9F6390F01C1BDE2F00D10E0B /* RolesTableViewController.swift */,
 				9F6390EC1C1BC14A00D10E0B /* StatesTableViewController.swift */,
+				9F6390F01C1BDE2F00D10E0B /* RolesTableViewController.swift */,
+				9F6390FB1C1C075F00D10E0B /* CanditatesTableViewController.swift */,
+				9F6390FD1C1C5CC000D10E0B /* CandidateDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				9F6390DD1C1B942600D10E0B /* RegionsTableViewController.swift in Sources */,
 				9F6390F31C1BF1EA00D10E0B /* ParseManager.swift in Sources */,
 				9F6390FC1C1C075F00D10E0B /* CanditatesTableViewController.swift in Sources */,
+				9F6390FE1C1C5CC000D10E0B /* CandidateDetailViewController.swift in Sources */,
 				9F6390F11C1BDE2F00D10E0B /* RolesTableViewController.swift in Sources */,
 				9F6390F51C1BF3F800D10E0B /* ParseRequest.swift in Sources */,
 				9F6390ED1C1BC14A00D10E0B /* StatesTableViewController.swift in Sources */,

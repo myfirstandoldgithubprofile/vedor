@@ -17,65 +17,15 @@ class RegionsTableViewController: UITableViewController {
     }
     
     let regions = [Region.Brasil, .Norte, .Nordeste, .CentroOeste, .Sudeste, .Sul]
-    
     var states: [State] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        self.title = "Região"
-//        // Do any additional setup after loading the view, typically from a nib.
-//        
-//        let query = PFQuery(className:"politics")
-//        query.whereKey("sigla_uf", equalTo:"RJ")
-//        query.limit = 1000
-//        
-//        query.findObjectsInBackgroundWithBlock {
-//            (objects: [PFObject]?, error: NSError?) -> Void in
-//            
-//            if error == nil {
-//                // The find succeeded.
-//                print("Successfully retrieved \(objects!.count) scores.")
-//                // Do something with the found objects
-//                if let objects = objects {
-//                    for object in objects {
-//                        print(object["nome_candidato"])
-//                    }
-//                }
-//                
-//            } else {
-//                // Log details of the failure
-//                print("Error: \(error!) \(error!.userInfo)")
-//            }
-//        }
-//        
-//        query.cancel()
-//        
-//        query.skip = 999
-//        
-//        query.findObjectsInBackgroundWithBlock {
-//            (objects: [PFObject]?, error: NSError?) -> Void in
-//            
-//            if error == nil {
-//                // The find succeeded.
-//                print("Successfully retrieved \(objects!.count) scores.")
-//                // Do something with the found objects
-//                if let objects = objects {
-//                    for object in objects {
-//                        print(object["nome_candidato"])
-//                    }
-//                }
-//            } else {
-//                // Log details of the failure
-//                print("Error: \(error!) \(error!.userInfo)")
-//            }
-//        }
-
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
