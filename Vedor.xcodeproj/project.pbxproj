@@ -58,9 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				9F6390D91C1B942600D10E0B /* Vedor */,
-				9F6390D81C1B942600D10E0B /* Products */,
-				FF21AAAE6DBD99E0695F51A1 /* Pods */,
 				B8B8E74212CC0C958F76F4A4 /* Frameworks */,
+				FF21AAAE6DBD99E0695F51A1 /* Pods */,
+				9F6390D81C1B942600D10E0B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,14 +75,14 @@
 		9F6390D91C1B942600D10E0B /* Vedor */ = {
 			isa = PBXGroup;
 			children = (
-				9F6390F81C1BF65400D10E0B /* ViewControllers */,
 				9F6390F71C1BF50D00D10E0B /* Model */,
 				9F6390F61C1BF4CF00D10E0B /* Services */,
+				9F6390F81C1BF65400D10E0B /* ViewControllers */,
 				9F6390DA1C1B942600D10E0B /* AppDelegate.swift */,
-				9F6390DE1C1B942600D10E0B /* Main.storyboard */,
 				9F6390E11C1B942600D10E0B /* Assets.xcassets */,
-				9F6390E31C1B942600D10E0B /* LaunchScreen.storyboard */,
 				9F6390E61C1B942600D10E0B /* Info.plist */,
+				9F6390E31C1B942600D10E0B /* LaunchScreen.storyboard */,
+				9F6390DE1C1B942600D10E0B /* Main.storyboard */,
 			);
 			path = Vedor;
 			sourceTree = "<group>";
@@ -93,27 +93,27 @@
 				9F6390F21C1BF1EA00D10E0B /* ParseManager.swift */,
 				9F6390F41C1BF3F800D10E0B /* ParseRequest.swift */,
 			);
-			name = Services;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		9F6390F71C1BF50D00D10E0B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				9F6390EE1C1BCB2500D10E0B /* State.swift */,
 				9F6390F91C1BFE4900D10E0B /* Politician.swift */,
+				9F6390EE1C1BCB2500D10E0B /* State.swift */,
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		9F6390F81C1BF65400D10E0B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				9F6390DC1C1B942600D10E0B /* RegionsTableViewController.swift */,
-				9F6390EC1C1BC14A00D10E0B /* StatesTableViewController.swift */,
-				9F6390F01C1BDE2F00D10E0B /* RolesTableViewController.swift */,
 				9F6390FB1C1C075F00D10E0B /* CanditatesTableViewController.swift */,
+				9F6390DC1C1B942600D10E0B /* RegionsTableViewController.swift */,
+				9F6390F01C1BDE2F00D10E0B /* RolesTableViewController.swift */,
+				9F6390EC1C1BC14A00D10E0B /* StatesTableViewController.swift */,
 			);
-			name = ViewControllers;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		B8B8E74212CC0C958F76F4A4 /* Frameworks */ = {
@@ -276,6 +276,7 @@
 				9F6390DF1C1B942600D10E0B /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		9F6390E31C1B942600D10E0B /* LaunchScreen.storyboard */ = {
@@ -284,6 +285,7 @@
 				9F6390E41C1B942600D10E0B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

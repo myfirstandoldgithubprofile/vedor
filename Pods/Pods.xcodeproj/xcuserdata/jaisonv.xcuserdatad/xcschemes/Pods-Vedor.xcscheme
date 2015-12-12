@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'DA5C9598D91CA7732FC5F961'
+               BlueprintIdentifier = '316A3B3A8A455F7B277F003A'
                BlueprintName = 'Pods-Vedor'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_Vedor.framework'>

@@ -4,7 +4,7 @@ PODS:
     - Bolts/Tasks (~> 1.5)
 
 DEPENDENCIES:
-  - Parse
+  - Parse (= 1.10.0)
 
 SPEC CHECKSUMS:
   Bolts: 722ab9a4f8b50fc4ed1b9998a5a7a2b3f16d80b4
