@@ -1,0 +1,7 @@
+# Ignore system files
+.DS_Store
+
+# Ignore user data
+Vedor.xcodeproj/project.xcworkspace/xcuserdata/
+Vedor.xcodeproj/xcuserdata/
+Vedor.xcworkspace/xcuserdata/
